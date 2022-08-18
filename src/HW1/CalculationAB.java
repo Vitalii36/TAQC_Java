@@ -8,14 +8,31 @@ public class CalculationAB {
         String a = myObj.nextLine();
         return a;
     }
-    public static void main(String ... args) {
+
+    public static Float getSum(float a, float b) {
+        return a + b;
+    }
+
+    public static Float getDif(float a, float b) {
+        return a - b;
+    }
+
+    public static Float getSMulti(float a, float b) {
+        return a * b;
+    }
+
+    public static Float getSDiv(float a, float b) {
+        return a / b;
+    }
+
+    public static void main(String... args) {
         System.out.println("Please write first number");
-//        String a = getNumber();
-        float a =Float.parseFloat(getNumber());
+        float a = Float.parseFloat(getNumber());
         System.out.println("Please write second number");
-//        String b = getNumber();
-        float b =Float.parseFloat(getNumber());
-        float c = a + b;
-        System.out.println("Result - " + c);
+        float b = Float.parseFloat(getNumber());
+        System.out.println("Sum  - " + getSum(a, b));
+        System.out.println("Dif - " + getDif(a, b));
+        System.out.println("Multi - " + getSMulti(a, b));
+        System.out.println("Div - " + getSDiv(a, b));
     }
 }
