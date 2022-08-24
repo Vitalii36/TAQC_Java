@@ -1,6 +1,6 @@
 package HW3;
 
-public class FlyingBird extends Bird{
+class FlyingBird extends Bird{
 
     FlyingBird(){}
 
@@ -19,7 +19,7 @@ public class FlyingBird extends Bird{
 
 
     @Override
-    public void fly() {
+    void fly() {
         System.out.println("Can fly");
     }
 }

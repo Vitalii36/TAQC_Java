@@ -1,6 +1,6 @@
 package HW3;
 
-public abstract class Bird {
+abstract class Bird {
     public String feathers;
     public Boolean layEggs;
 
@@ -8,5 +8,5 @@ public abstract class Bird {
         return "Bird feathers - " +  "'" + this.feathers + "'" +  " Can bird lay eggs? - " + "'" + this.layEggs + "'";
     }
 
-    public abstract void fly();
+    abstract void fly();
 }

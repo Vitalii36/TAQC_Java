@@ -1,8 +1,6 @@
 package HW3;
 
-import java.time.LocalDate;
-
-public class NonFlyingBird extends Bird{
+class NonFlyingBird extends Bird{
 
     NonFlyingBird(){}
 
@@ -20,7 +18,7 @@ public class NonFlyingBird extends Bird{
     }
 
     @Override
-    public void fly() {
+    void fly() {
         System.out.println("Can not fly");
     }
 }
