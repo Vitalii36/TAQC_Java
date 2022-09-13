@@ -1,6 +1,5 @@
 package HW6;
 
-import static HW5.Main.getBiggest;
 import static HW6.myCollection.*;
 import org.junit.jupiter.api.Test;
 
